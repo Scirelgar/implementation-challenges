@@ -1,4 +1,4 @@
-# Challenge d'implémentation
+# Challenges d'implémentation
 
 Ce répertoire contient des énoncés de défis d'implémentation pour tester vos compétences en développement d'algorithmes quantiques.
 
@@ -7,6 +7,19 @@ Ce répertoire contient des énoncés de défis d'implémentation pour tester vo
 - `/challenges` : Contient les énoncés des défis dans un format Markdown. Chaque énoncé contient une description du défi, des instructions pour l'implémentation et des suggestions de résultats à produire.
 - `/notebooks` : Contient des notebooks Jupyter servant à faciliter la compréhension et le développement des solutions aux défis. On y trouve des exemples de code qui peuvent être tirés des énoncés ou qui complémentent ces derniers. L'intention est de fournir un support, particulièrement pour les notions qui ne relèvent pas directement de la **programmation** quantique mais qui sont nécessaires pour résoudre les défis.
 - `/solutions` : Contient seulement un template architectural pour les solutions aux défis. Les solutions ne doivent pas être développées directement dans ce répertoire. Elle doivent être développées dans une fork ou un branche dédiée. Une fois la solution développée, elle peut être mergée via une pull request sur la branche dédiée `solutions`.
+
+> [!IMPORTANT]
+> <table>
+>   <tr>
+>     <td>
+>       Ce répertoire ne contient pas de solution, vous pouvez cependant consulter les solutions des membres qui ont "fork" le répertoire.
+>     </td>
+>     <td>
+>       <img width="250" alt="Exemple de fork" src="https://github.com/user-attachments/assets/67ebb506-a98e-45f5-8438-04b5dd74160b" />
+>     </td>
+>   </tr>
+> </table>
+
 
 ## Premiers pas
 
@@ -21,10 +34,6 @@ Pour guider votre travail, il est recommandé de procéder comme suit :
 3. Lisez attentivement l'énoncé du défi, les étapes suggérées et les résultats attendus.
 4. Parcourez le ou les notebooks Jupyter associés au défi pour mieux comprendre les concepts prérequis et les exemples de code.
 5. Implémentez votre solution !
-
-## Soumission de votre solution dans le répertoire principal
-
-La branche principale du projet est protégée. Il n'est donc pas possible de pousser directement vos modifications sur cette branche. Pour soumettre votre solution, vous devez créer une pull request depuis votre fork ou votre branche dédiée vers la branche `solutions` du project principal. Elle sera ensuite examinée par une personne gestionnaire du répertoire. Si votre solution est jugée satisfaisante, elle sera mergée dans la branche `solutions` du projet principal comme solution officielle du défi.
 
 ## Soumission d'un nouveau défi dans le répertoire principal
 
